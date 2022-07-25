@@ -1,0 +1,65 @@
+.about, .exp, .experience{
+    width: 100vw;
+    height:60vh;
+    padding: 18vh 15vw 0 15vw;
+    display:flex;
+    z-index: 1;
+}
+
+.title{
+    position: relative;
+    float: left;
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 40px;
+    text-shadow: 2px 2px 5px rgb(116, 203, 206);
+}
+
+.about-text{
+    font-weight:220;
+    font-size: 18px;
+    line-height:1.5;
+    color:#42424d;
+    letter-spacing: 0.2px;
+    width: 87%;
+    height: 100%;
+    z-index: -1;
+}
+
+.about-text b{
+    font-weight: 400;
+}
+
+@media screen and (max-width: 905px) {
+    .about, .exp, .experience{
+        flex-direction: column;
+        margin: 0;
+        height: auto;
+    }
+
+    .expDiv{
+        margin-left: 0;
+    }
+
+    .title{
+        font-size: 2.6vw;
+        padding-left: 0;
+        padding-bottom: 15px;
+        
+    }
+
+    .about-text, .pText, .expDiv, .resume{
+        font-size: 2.1vw;
+    }
+
+}
+
+@media screen and (max-width: 615px) {
+    .about, .exp{
+        flex-direction: column;
+        height: auto;
+    }
+
+
+}

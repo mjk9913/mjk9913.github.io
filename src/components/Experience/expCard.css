@@ -1,0 +1,37 @@
+.expCard{
+    font-weight:220;
+    line-height:1.5;
+    color:#42424d;
+    letter-spacing: 0.2px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 1px solid #f4ae72;;
+    padding: 6px;
+}
+
+.expTitle{
+    font-weight: 500;
+    color: #f4ae72;
+}
+
+.expCompany{
+    font-weight: 400;
+}
+
+.expDate{
+    font-weight: 200;
+}
+
+.resume{
+    color: black;
+    margin-top: 15px;
+    z-index: -1;
+    text-decoration: underline;
+    text-decoration-color: rgb(116, 203, 206);
+    text-decoration-thickness: 3px;
+}
+
+.resume:hover{
+    cursor: pointer;
+    box-shadow: inset 100px 0 0 0 #54b3d6;
+}
