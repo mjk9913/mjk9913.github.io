@@ -22,16 +22,3 @@
     font-weight: 200;
 }
 
-.resume{
-    color: black;
-    margin-top: 15px;
-    z-index: -1;
-    text-decoration: underline;
-    text-decoration-color: rgb(116, 203, 206);
-    text-decoration-thickness: 3px;
-}
-
-.resume:hover{
-    cursor: pointer;
-    box-shadow: inset 100px 0 0 0 #54b3d6;
-}
