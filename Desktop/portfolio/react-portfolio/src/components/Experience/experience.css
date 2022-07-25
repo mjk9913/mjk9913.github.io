@@ -1,0 +1,6 @@
+.expDiv{
+    position: relative;
+    margin:0 40px 0 40px;
+    z-index: -1;
+}
+
