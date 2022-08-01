@@ -1,0 +1,13 @@
+.cInfo{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.fa{
+    margin-bottom: 20px;
+    color:#f5ca7b;
+    font-size: 15.5h;
+
+}

@@ -1,6 +1,19 @@
 .expDiv{
     position: relative;
     margin:0 40px 0 40px;
-    z-index: -1;
 }
 
+.resume{
+    color: black;
+    margin-top: 15px;
+    text-decoration: underline;
+    text-decoration-color: rgb(116, 203, 206);
+    text-decoration-thickness: 3px;
+    transition-duration: 1s;
+}
+
+.resume:hover{
+    cursor: pointer;
+    box-shadow: inset 0 0 120px 0 rgb(116, 203, 206); 
+    border-radius: 2px;
+}
