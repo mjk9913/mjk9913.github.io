@@ -43,7 +43,7 @@
 }
 
 
-.option a:hover > li{
+.option :hover > li{
     transition: 0.4s ease-out;
     color:white;
     filter: drop-shadow(0 0 0.3rem #f5ca7b);

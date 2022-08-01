@@ -10,6 +10,7 @@ function Intro() {
         <div class="des 1">aspiring software engineer, </div>
         <div class="des 2"> traveller, </div>
         <div class="des 3">football + touch rugby enthusiast.</div>
+        <div class="des 4" style={{fontSize:`1.3vw` }}>*I recently revamped this website, so parts of this portfolio might be incomplete!</div>
       </div>
     <div class="intropic">
         <div class="introp"></div>

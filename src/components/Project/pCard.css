@@ -1,14 +1,13 @@
 .card{ 
     overflow-y: hidden;
     width: 50%;
-    height: 50%;
+    height: auto;
 }
 
 .pImage{
   display: flex;
   height: 200px;
   width: 80%;
-  z-index: 1;
   border-radius: 20px;
   background-repeat: no-repeat;
   background-position: center;

@@ -1,17 +1,15 @@
 .exp{
     overflow-y: hidden;
     display: flex;
-    height: 150vh;
-}
-
-.title{
-    z-index: 1;
+    height: auto;
 }
 
 .card-div{
     margin: 10px;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
+    align-content: flex-start
 }
+
 
